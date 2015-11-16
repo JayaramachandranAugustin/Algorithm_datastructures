@@ -32,11 +32,11 @@ public int[] mergeSort(int[] part1,int[] part2,int[] result){
 	return result;
 }
 public static void main(String args[]){
-	int inputArray[]={3,5,2,7,8,9,1,1};
+	int inputArray[]={6,5,4,3,2,1};
 	MergeSort merge=new MergeSort();
 	merge.splitArray(inputArray);
 	for(int i:inputArray){
-		System.out.println(i);
+		System.out.print(i +" ");
 	}
 }
 }
